@@ -1,0 +1,39 @@
+body    {
+    margin: 0;
+    padding: 0;
+}
+.textandimage, .textandimage * {
+    margin: 1%;
+}
+.textandimage, .textandimage * {
+    padding: 1%;
+}
+#main   {
+    background-color: #ff0000;
+    width: 100%;
+}
+.textandimage   {
+    background-color: #000000;
+}
+.textandimage, .textandimage div, .textandimage img {
+    width: 90%;
+}
+.textandimage div   {
+    border: 4px solid #ff0000;
+}
+.textandimage img   {
+    border: 4px dotted #ff0000;
+}
+#main, .textandimage   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textandimage p, .textandimage li {
+    font-size: 200%;
+    word-wrap: break-word;
+    color: #ffffff;
+}
+.textandimage p {
+    text-align: center;
+}
